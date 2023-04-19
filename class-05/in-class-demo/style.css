@@ -1,0 +1,72 @@
+/* EXTERNAL STYLE SHEET - industry standard - keep your CSS separate from your HTML and connect them together like I did in line 5 of the HTML file*/
+
+/* ----------------------------------------------------- */
+
+/* proof of life, do something big and obvious to check if your stylesheet is connected, then delete it or comment it out
+
+Make the entire page have a red background:
+
+body {
+  background-color: red;
+} */
+
+/* ----------------------------------------------------- */
+
+/* I like to use this to give ALL of the elements a border, so I can see that all elements really are just boxes inside of boxes. Remove this before publishing your website. */
+* {
+  border: 1px solid black;
+}
+
+/* ----------------------------------------------------- */
+
+/* Grab an element by it's name - this will select ALL p elements */
+p {
+  padding: 50px;
+}
+
+/* This will select ALL unordered list elements */
+ul {
+  background-color: limegreen
+}
+
+/* Go to the nav element and find all the unordered lists */
+nav ul {
+  background-color: purple;
+}
+
+/* Make all the sections side-by-side instead of stacked, they should be about 1/3 as wide as their parent container and have a static height of 200px  */
+section {
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+}
+
+/* ID - unique value given to an element - find all the elements with the ID attribute of 'hero-img' */
+#hero-img {
+  width: 200px;
+  float: left;
+}
+
+/* CLASS - a way to group similiar elements together - find all elements with the Class attribute of 'lower' */
+.lower {
+  background-color: orange;
+}
+
+/* This rule would over-ride any previous rules for unordered lists */
+ul {
+  background-color: pink;
+}
+
+/* I want to change the list items themselves inside the nav */
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+/* I want to change the anchor tags inside the list items */
+nav ul li a {
+  color: white;
+}
+
+
+/*OTHER PROPERTIES YOU MIGHT TRY TO PLAY WITH: border, margin, padding, width, height, list-style, text-decoration, display, float, font-family, font-size, play around! */
