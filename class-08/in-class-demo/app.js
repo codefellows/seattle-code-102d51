@@ -5,21 +5,25 @@
 // While-Loop Structure: while(this is true){execute this code;}
 
 // let x = 5;
+// while (x <= 5){
+//   console.log(x);
+//   x++;    
+// }
 
-// 0 < 5 ? T | Execute code x = 1
-// 1 < 5 ? T | Execute code x = 2
-// 2 < 5 ? T | Execute code x = 3
-// 3 < 5 ? T
-// 4 < 5 ? T
-// 5 <= 5 ? T | 
-// 6 <= 5 ? F | BREAK THE LOOP
+// 0 <= 5 ? True | Execute code which makes x == 1 <-- first iteration
+// 1 <= 5 ? True | Execute code which makes x == 2 <-- second iteration
+// 2 <= 5 ? True | Execute code which makes x == 3 <-- third iteration
+// 3 <= 5 ? True | Execute code which makes x == 4 <-- fourth iteration
+// 4 <= 5 ? True | Execute code which makes x == 5 <-- fifth iteration
+// 5 <= 5 ? True | Execute code which makes x == 6 <-- sixth iteration
+// 6 <= 5 ? False | BREAK THE LOOP
 
 // For-Loop Structure: 
 // for (initial value; condition to evaluate; increment/decrement){
 //    execute this code; 
 // }
 
-// See for loop in action 
+// See for loop in action on line 71 of app.js
 
 
 // ----------------------------------------------------------------
