@@ -12,3 +12,5 @@
     * Quiz 8 - talked about loops, watch the recording
 * Functions
 * Conditional Statements/Logic
+
+* Don't forget about gituations y'all!
