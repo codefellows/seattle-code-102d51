@@ -90,3 +90,9 @@ footer {
   background-color: rgb(25, 244, 171);
   height: 50px;
 }
+
+/* Added the next CSS rule to handle my images from my JavaScript loop on line 67 of app.js */
+
+.loop-img {
+  width: 200px;
+}
